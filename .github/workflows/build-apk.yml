@@ -24,6 +24,15 @@ jobs:
       with:
         gradle-version: 8.7
 
+    - name: Make gradlew executable
+      run: chmod +x gradlew
+
+    - name: Verify gradlew permissions
+      run: ls -la gradlew
+
+    - name: List current directory
+      run: pwd && ls -la
+
     - name: Build Debug APK
       run: ./gradlew assembleDebug
 
