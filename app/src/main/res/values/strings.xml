@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VPN Auto-Rotator</string>
+    <string name="vpn_enabled">Enable Auto-VPN Rotation</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="rotation_interval">Rotation Interval (minutes)</string>
+    <string name="interval_format">%d minutes</string>
+    <string name="available_servers">Available VPN Gate Servers</string>
+    <string name="refresh_servers">Refresh Server List</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="initializing">Initializing...</string>
+    <string name="servers_found">Found %d servers</string>
+    <string name="fetch_failed">Failed to fetch server list</string>
+    <string name="vpn_connected">Connected to: %s</string>
+    <string name="vpn_disconnected">VPN Disconnected</string>
+    <string name="vpn_active">VPN Auto-Rotator Active</string>
+    <string name="no_servers">No VPN servers available</string>
+    <string name="connection_failed">Failed to connect to any server</string>
+    <string name="stop">Stop Service</string>
+</resources>
